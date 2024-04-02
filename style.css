@@ -255,7 +255,7 @@ h3 {
   padding-bottom: 5px;
 }
 
-.Profile-text {
+.Profile-text:nth-child(1) {
   margin-bottom: 20px;
 }
 
@@ -396,6 +396,68 @@ footer {
     width: 90%;
     height: auto;
     margin: 0 auto 10px;
+  }
+  
+  
+  .Profile-container {
+    width: 90%;
+    margin: 0 auto;
+  } 
+  
+  .Profile-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .Profile-image {
+    width: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .introduction {
+    width: auto;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .Profile-text {
+    text-align: center;
+  }
+  
+  .Contact-container {
+    width: 90%;
+  }
+  
+  .Contact-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .address {
+    width: auto;
+  }
+  
+  .index {
+    margin-bottom: 20px;
+  }
+  
+  .SNS {
+    width: auto;
+  }
+  
+  .address section, .SNS section {
+    text-align: center;
+  }
+  
+  .SNS-icon i {
+    margin-right: 8px;
   }
   
 }
